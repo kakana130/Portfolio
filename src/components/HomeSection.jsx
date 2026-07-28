@@ -9,7 +9,9 @@ export default function HomeSection() {
         grid md:grid-cols-[1.1fr_.9fr] gap-10 md:gap-14 items-center"
     >
       <div>
-        <div className="eyebrow">Home</div>
+        <div className="eyebrow text-[18px] md:text-[20px] font-semibold tracking-[0.25em] uppercase">
+          Home
+        </div>
         <h1 className="font-display text-[34px] md:text-[56px] leading-[1.12] -tracking-wide text-ink mb-5">
           {profile.headline} <em className="italic text-rust">{profile.headlineEm}</em>{' '}
           {profile.headlineEnd}
