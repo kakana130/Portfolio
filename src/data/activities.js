@@ -1,3 +1,5 @@
+import hackathonImage from '../assets/hackathon.png'
+
 export const activities = {
   competitions: [
     {
@@ -6,7 +8,7 @@ export const activities = {
         'เข้าร่วมแข่งขัน Hackathon ในหัวข้อ Cyber Security โดยทำงานเป็นทีมเพื่อพัฒนาโซลูชันด้านความปลอดภัยทางไซเบอร์และนำเสนอผลงานต่อคณะกรรมการ',
       meta: null,
       badge: 'รางวัลชมเชย',
-      image: 'src/assets/hackathon.png',
+      image: hackathonImage,
     },
   ],
 }

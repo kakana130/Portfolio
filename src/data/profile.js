@@ -1,3 +1,5 @@
+import profileAvatar from '../assets/Profile.png'
+
 // ==== แก้ไขข้อมูลส่วนตัวของคุณที่นี่ ====
 export const profile = {
   name: 'ณัฐพงศ์ กัลยารัตน์',
@@ -11,8 +13,8 @@ export const profile = {
   bio: 'เป็นคนที่สนุกกับการแก้ปัญหาผ่านโค้ด เริ่มเขียนโปรแกรมตั้งแต่มัธยมปลายจากการทำเว็บไซต์เล็กๆ ด้วยตนเอง ปัจจุบันกำลังศึกษาต่อในระดับปริญญาตรี พร้อมฝึกฝนทักษะทั้งฝั่ง Front-end และ Back-end ผ่านรายวิชาและโปรเจกต์นอกห้องเรียน',
   bioWork:
     '-',
-  // วางไฟล์รูปไว้ที่ src/assets/ แล้วแก้ path ตรงนี้ เช่น '/src/assets/profile.jpg'
-  avatar: '/src/assets/profile.png',
+  // วางไฟล์รูปไว้ที่ src/assets/ แล้วแก้ path ตรงนี้ เช่น '../assets/profile.jpg'
+  avatar: profileAvatar,
   email: 'tvballgamer@email.com',
   phone: '0933323005',
   phoneDisplay: '093-332-3005',

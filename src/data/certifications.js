@@ -1,1 +1,3 @@
-export const certificationImage = '/src/assets/cert.png';
+import certImage from '../assets/cert.png'
+
+export const certificationImage = certImage

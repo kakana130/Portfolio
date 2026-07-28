@@ -1,3 +1,7 @@
+import greenhouseImage from '../assets/green.png'
+import foodImage from '../assets/food.png'
+import posImage from '../assets/pos.png'
+
 // ==== แก้ไข/เพิ่มโปรเจกต์ของคุณที่นี่ ====
 export const projects = [
   {
@@ -7,8 +11,8 @@ export const projects = [
     description:
       'พัฒนาเว็บแอปพลิเคชันสำหรับแสดงผลข้อมูลอุณหภูมิและความชื้นจากเซ็นเซอร์ DHT11 และควบคุมการรดน้ำต้นไม้ผ่าน Relay Module โดยใช้ ESP32 เป็นตัวกลางในการส่งข้อมูลไปยัง Firebase Realtime Database',
     stack: ['ESP32', 'Relay Module', 'Vue.js'],
-    // ใส่ path รูปภาพ เช่น '/src/assets/project1.png'
-    image: '/src/assets/green.png',
+    // ใส่ path รูปภาพ เช่น '../assets/project1.png'
+    image: greenhouseImage,
     codeUrl: '#',
     liveUrl: '#',
     note: null,
@@ -20,7 +24,7 @@ export const projects = [
     description:
       'เว็บแอปสำหรับจัดการการให้อาหารแมวอัตโนมัติ โดยใช้ ESP32 เป็นตัวกลางในการควบคุม Servo Motor และอ่านข้อมูลจากเซ็นเซอร์น้ำหนัก Load Cell เพื่อแสดงผลปริมาณอาหารที่เหลืออยู่ในถาดอาหาร',
     stack: ['ESP32', 'Servo Motor', 'google Apps Script', 'HTML/CSS/JS'],
-    image: '/src/assets/food.png',
+    image: foodImage,
     codeUrl: 'https://github.com/kakana130/Feed_Food_Cat',
     liveUrl: 'https://script.google.com/macros/s/AKfycbz3jcOOxz99F3rDYj8HlucOtjieJXZNHgL1BLIbFYDaMfNQnIHdx0DTrhdm6zUvUpKEPA/exec',
     note: null,
@@ -32,7 +36,7 @@ export const projects = [
     description:
       'แอบพลิเคชัน POS สำหรับร้านอาหารขนาดเล็กที่ช่วยให้พนักงานสามารถจัดการคำสั่งซื้อและชำระเงินได้อย่างมีประสิทธิภาพ',
     stack: ['xaml', 'C#', 'SQLite'],
-    image: '/src/assets/pos.png',
+    image: posImage,
     codeUrl: 'https://github.com/Pakaoww/POS_moblie_project',
     note: null,
   },
