@@ -13,8 +13,7 @@ export const projects = [
     stack: ['ESP32', 'Relay Module', 'Vue.js'],
     // ใส่ path รูปภาพ เช่น '../assets/project1.png'
     image: greenhouseImage,
-    codeUrl: '#',
-    liveUrl: '#',
+    codeUrl: 'https://github.com/kakana130/Greenhouse',
     note: null,
   },
   {
