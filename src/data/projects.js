@@ -1,6 +1,17 @@
 import greenhouseImage from '../assets/green.png'
 import foodImage from '../assets/food.png'
 import posImage from '../assets/pos.png'
+import posImage1 from '../assets/poslogin.png'
+import posImage2 from '../assets/posloading.png'
+import posImage3 from '../assets/posnavbar.png'
+import posImage4 from '../assets/pos1.png'
+import posImage5 from '../assets/poscart.png'
+import posImage6 from '../assets/poscheckout.png'
+import posImage7 from '../assets/posbill.png'
+import posImage8 from '../assets/poscheckcamera.png'
+import posImage9 from '../assets/posscanbarcode.png'
+import posImage10 from '../assets/posaddproduct.png'
+import posImage11 from '../assets/poscategory.png'
 
 // ==== แก้ไข/เพิ่มโปรเจกต์ของคุณที่นี่ ====
 export const projects = [
@@ -11,7 +22,6 @@ export const projects = [
     description:
       'พัฒนาเว็บแอปพลิเคชันสำหรับแสดงผลข้อมูลอุณหภูมิและความชื้นจากเซ็นเซอร์ DHT11 และควบคุมการรดน้ำต้นไม้ผ่าน Relay Module โดยใช้ ESP32 เป็นตัวกลางในการส่งข้อมูลไปยัง Firebase Realtime Database',
     stack: ['ESP32', 'Relay Module', 'Vue.js'],
-    // ใส่ path รูปภาพ เช่น '../assets/project1.png'
     image: greenhouseImage,
     codeUrl: 'https://github.com/kakana130/Greenhouse',
     note: null,
@@ -30,12 +40,13 @@ export const projects = [
   },
   {
     no: '03',
-    title: 'ออกแบบแอปพลิเคชันPOS (Point of Sale) สำหรับร้านอาหารขนาดเล็ก',
+    title: 'ออกแบบแอปพลิเคชัน POS (Point of Sale) สำหรับร้านอาหารขนาดเล็ก',
     role: 'โปรเจกต์รายวิชา Mobile Application Development · งานกลุ่ม 4 คน',
     description:
-      'แอบพลิเคชัน POS สำหรับร้านอาหารขนาดเล็กที่ช่วยให้พนักงานสามารถจัดการคำสั่งซื้อและชำระเงินได้อย่างมีประสิทธิภาพ',
+      'แอปพลิเคชัน POS สำหรับร้านอาหารขนาดเล็กที่ช่วยให้พนักงานสามารถจัดการคำสั่งซื้อและชำระเงินได้อย่างมีประสิทธิภาพ',
     stack: ['xaml', 'C#', 'SQLite'],
     image: posImage,
+    screenshots: [posImage1, posImage2, posImage3, posImage4, posImage5, posImage6, posImage7, posImage8, posImage9, posImage10, posImage11],
     codeUrl: 'https://github.com/Pakaoww/POS_moblie_project',
     note: null,
   },
